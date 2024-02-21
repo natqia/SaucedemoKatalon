@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi user dapat mengakses informasi satu produk</description>
+   <name>TC-004 Detail Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be089802-a2f7-47bc-93d1-eebe9b7ae688</testCaseGuid>
+</TestCaseEntity>

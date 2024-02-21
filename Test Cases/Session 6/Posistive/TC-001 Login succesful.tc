@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi user berhasil login dengan menggunakan username dan password yang sudah terdaftar</description>
+   <name>TC-001 Login succesful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b54a57e-8545-4377-b63c-b96148650aa7</testCaseGuid>
+</TestCaseEntity>

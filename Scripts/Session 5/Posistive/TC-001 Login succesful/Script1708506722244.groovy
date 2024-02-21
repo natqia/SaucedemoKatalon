@@ -30,10 +30,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
+if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'), 5, FailureHandling.STOP_ON_FAILURE))
+	WebUI.comment('Halaman Login Muncul')
+
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), username)
 
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack', [item : identifierItem]))
+loginSuccess = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/span_Products'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(loginSuccess, 'Products', false)
+
+WebUI.closeBrowser()
+

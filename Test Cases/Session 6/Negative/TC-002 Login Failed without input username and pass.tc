@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi user gagal login tanpa input username dan password</description>
+   <name>TC-002 Login Failed without input username and pass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5ebe7a9-4555-4e6b-b0e3-9653500eb2c2</testCaseGuid>
+</TestCaseEntity>

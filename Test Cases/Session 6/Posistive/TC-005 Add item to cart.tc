@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi user dapat memasukkan item ke dalam cart</description>
+   <name>TC-005 Add item to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af227030-6c6f-4361-829b-65b36dd82439</testCaseGuid>
+</TestCaseEntity>
